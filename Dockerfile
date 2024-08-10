@@ -3,7 +3,7 @@ FROM node:19-alpine as builder
 # Set working directory to /app inside the container image 
 WORKDIR /app 
 # Copy app files 
-COPY . .
+COPY package*.json ./
 
 # ====== BUILD ===== 
 # Install dependencies 
