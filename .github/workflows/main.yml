@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: supritshah1289/githubaction:latest
+          tags: sebastiankociuba/TomekReactTemplate:latest
